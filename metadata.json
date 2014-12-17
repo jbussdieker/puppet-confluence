@@ -1,0 +1,21 @@
+{
+  "name": "jbussdieker-confluence",
+  "version": "0.0.1",
+  "author": "Joshua B. Bussdieker",
+  "summary": "Managed confluence install",
+  "license": "MIT",
+  "source": "https://github.com/jbussdieker/puppet-confluence",
+  "project_page": "https://forge.puppetlabs.com/jbussdieker/confluence",
+  "issues_url": null,
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [ "14.04", "12.04", "10.04" ]
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs-java", "version_requirement": ">= 1.2.0 < 1.3.0"
+    }
+  ]
+}
